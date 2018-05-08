@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -72,6 +73,18 @@ public class RevisionNotesArrayAdapter extends ArrayAdapter<Note> {
 
 		}
 
+		/*
+		Switch Method
+
+		switch (current.getStars()){
+			case 5:iv5.setImageResource(android.R.drawable.btn_star_big_on);
+			case 4:iv4.setImageResource(android.R.drawable.btn_star_big_on);
+			case 3:iv3.setImageResource(android.R.drawable.btn_star_big_on);
+			case 2:iv2.setImageResource(android.R.drawable.btn_star_big_on);
+			case 1:iv1.setImageResource(android.R.drawable.btn_star_big_on);
+			default:;
+		}
+		*/
 		return rowView;
 	}
 
